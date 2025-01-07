@@ -1,0 +1,40 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 1px solid red;/**/
+}
+
+body {
+    /*background-color: #99c598;*/
+    background: linear-gradient(#99c598 45%, #a5d6a8 100%);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: top;
+    height: 100vh;
+}
+
+h2 {
+    font-size: medium;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 20vh;
+    position: relative;
+    /*margin-top: 2.5vh;*/
+}
+
+/* Title Style */
+.title {
+    font-size: 15vh;
+    text-align: center;
+    margin: 0 0 0 0;
+    /*flex: 1; /* This centers the text horizontally within the header */
+}
